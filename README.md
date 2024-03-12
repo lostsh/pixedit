@@ -7,9 +7,9 @@ Requirements:
 ## Usage
 Installing environment :
 ```bash
-python3 -m venv .env
-source .env/bin/activate
-python -m pip install pillow
+python3 -m venv .env # Creating virtual environement
+source .env/bin/activate # Activating the environment
+python -m pip install pillow # Installing the library
 ```
 
 Running program :
