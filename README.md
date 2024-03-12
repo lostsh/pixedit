@@ -14,5 +14,9 @@ python -m pip install pillow
 
 Running program :
 ```bash
-python main.py -f input.jpg -o output.png --remove-r 255 --remove-g 255 --remove-b 255
+# To remove all pixels matching the given rgb values :
+python main.py -f input.jpg -o output.png -rv 255 -gv 255 -bv 255
+
+# To keep all pixels matching the given rgb values :
+python main.py -f input.jpg -o output.png -rv 255 -gv 255 -bv 255 --keep-pixel
 ```
