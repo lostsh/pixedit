@@ -25,8 +25,14 @@ python main.py -f input.jpg -o output.png -rv 255 -gv 255 -bv 255 --keep-pixel
 
 
 |              | Removing pixels | Keeping only selected pixels |
-|--------------|:---------------:|------------------------------|
-| Description  |Removing white background *(all pixels with value 255, 255, 255)*||
-| Command line |`python main.py -f undraw.png -o out.png -rv 255 -gv 255 -bv 255`||
-| Input image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/35a33dc1-858a-46ed-8c7d-09402d720935" alt="Undraw icon to demonstrate usage">||
-| Ouput image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/87db81d8-5e49-458b-b792-2b54fff78367" alt="Undraw icon to demonstrate usage">||
+|--------------|:---------------:|:----------------------------:|
+| Description  |Removing white background *(all pixels with value 255, 255, 255)*|Keeping only white pixels|
+| Command line |`python main.py -f undraw.png -o out.png -rv 255 -gv 255 -bv 255`|`python main.py -f undraw.png -o white.png -rv 255 -gv 255 -bv 255 --keep-pixel`|
+| Input image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/35a33dc1-858a-46ed-8c7d-09402d720935" alt="Undraw icon to demonstrate usage">|<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/35a33dc1-858a-46ed-8c7d-09402d720935" alt="Undraw icon to demonstrate usage">|
+| Ouput image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/87db81d8-5e49-458b-b792-2b54fff78367" alt="Undraw icon to demonstrate usage">|<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/d6ec741a-1985-4b11-8f94-572bc9828520" alt="Undraw icon to demonstrate usage">|
+
+<!--
+<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/3c3d4726-3ec3-4626-9786-573017d0c1f6" alt="Undraw icon to demonstrate usage">|
+-->
+
+
