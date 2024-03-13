@@ -54,3 +54,11 @@ options:
   -d, --debug           Enable debug ouput, disabled by default
 ```
 
+|              | Removing pixels | Keeping only selected pixels |
+|--------------|:---------------:|:----------------------------:|
+| Description  |Removing only dark cat pixels|Keeping only dark cat pixels|
+| Command line |`python main.py --file undraw_cat.png --out out.png -rv 63 -gv 61 -bv 86`|` python main.py --file undraw_cat.png --out out.png -rv 63 -gv 61 -bv 86 --keep-pixel`|
+| Input image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/63be04dc-72aa-4a06-bcec-760bd04cfa29" alt="Undraw icon to demonstrate usage">|<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/63be04dc-72aa-4a06-bcec-760bd04cfa29" alt="Undraw icon to demonstrate usage">|
+| Ouput image  |<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/81a56086-1adc-44cd-98a9-53d0de27f014" alt="Undraw icon to demonstrate usage">|<img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/df7bf7e6-4cd5-431c-9482-77ae8c63c5b0" alt="Undraw icon to demonstrate usage">|
+
+
