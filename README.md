@@ -35,4 +35,22 @@ python main.py -f input.jpg -o output.png -rv 255 -gv 255 -bv 255 --keep-pixel
 <img width="200px" src="https://github.com/lostsh/pixedit/assets/43549864/3c3d4726-3ec3-4626-9786-573017d0c1f6" alt="Undraw icon to demonstrate usage">|
 -->
 
+```bash
+usage: Pixedit [-h] -f FILE -o OUT [--keep-pixel] [-rv R_VALUE] [-gv G_VALUE] [-bv B_VALUE] [-d]
+
+Pixel Editor
+
+options:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  Input image path
+  -o OUT, --out OUT     Output image path
+  --keep-pixel          Keep only pixel matching given rgb. By default, it remove all matching rgb pixels
+  -rv R_VALUE, --red-value R_VALUE
+                        (r,g,b) Red value to remove 0 - 255
+  -gv G_VALUE, --green-value G_VALUE
+                        (r,g,b) Blue value to remove 0 - 255
+  -bv B_VALUE, --blue-value B_VALUE
+                        (r,g,b) Green value to remove 0 - 255
+  -d, --debug           Enable debug ouput, disabled by default
+```
 
